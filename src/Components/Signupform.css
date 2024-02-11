@@ -1,0 +1,100 @@
+.form-container{
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+}
+
+.form-container form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.form-container .input{
+    height: 3rem;
+    padding: 0 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: .2rem;
+    border: 1px solid #2a2a2a;
+}
+.form-container .invalid{
+    height: 3rem;
+    padding: 0 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: .2rem;
+    background-color: #fac9c9;
+    border: 1px solid #ff0000;
+}
+.form-container .invalid-text{
+    color: red;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.form-container select{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: .2rem;
+    border: 1px solid #2a2a2a;
+}
+.form-container textarea{
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: .2rem;
+    border: 1px solid #2a2a2a;
+}
+.show-password{
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-password i{
+    position: absolute;
+    padding: 1rem 0;
+    left: 62.5%;
+    transform: translate(-100%);
+}
+
+.form-container button{
+    display: inline;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: #151516;
+    color: white;
+    border-radius: 17px;
+    border: 2px solid white;
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    background-color: white;
+    border: 2px solid #151516;
+    color: #151516;
+    border-radius: 17px;
+    transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 850px){
+    .form-container{
+        margin: 4rem 2rem;
+    }
+    .form-container form{
+        padding-top: 2rem;
+        width: 90%;
+    }
+    .form-container .input{
+        width: 100%;
+    }
+    .show-password i{
+        left: 87%;
+    }
+}

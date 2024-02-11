@@ -1,0 +1,48 @@
+.form-container{
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+}
+
+.form-container form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+
+}
+
+.form-container .input{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: .2rem;
+    border: 1px solid #2a2a2a;
+}
+.form-container .input .invalid{
+    border: 1px solid #ff0000;
+    background-color: #fac9c9;
+}
+.form-container .invalid-text{
+    color: red;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.form-container button{
+    display: inline;
+    width: 50%;
+}
+.form-container .signup{
+    width: 50%;
+}
+
+@media screen and (max-width: 850px){
+    .form-container{
+        margin: 4rem 2rem;
+    }
+    .form-container form{
+        padding-top: 2rem;
+        width: 90%;
+    }
+}

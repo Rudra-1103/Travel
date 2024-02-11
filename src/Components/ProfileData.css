@@ -1,0 +1,167 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+}
+.main{
+    position: absolute;
+    background-color: #f2f2f2;
+}
+.profile-container{
+    position: relative;
+    top: 112.5px;
+    left: 100px;
+    margin-bottom: 200px;
+}
+.profile-container .profile-pic{
+    position: relative;
+    top: 32px;
+}
+.profile-container .profile-pic img{
+    height: 160px;
+    width: 160px;
+}
+.name-container .name{
+    position: absolute;
+    left: 82px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 600;
+    height: 20px;
+}
+.name-container .text-2{
+    position: absolute;
+    top: 29px;
+    left: 84px;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    font-weight: 300;
+}
+.profile-container .name-container{
+    position: relative;
+    width: 283px;
+    height: 42px;
+    top: 64px;
+}
+
+.profile-container .links{
+    position: absolute;
+    width: 243px;
+    height: 176px;
+    left: 20px;
+    top: 279px;
+}
+.links .links-list{
+    position: relative;
+    list-style: none;
+    width: 243px;
+    height: 44px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.links-list i{
+    position: absolute;
+    font-size: 24px;
+    left: 27px;
+    top: 10px;
+}
+.links-list a{
+    position: absolute;
+    font-size: 14px;
+    left: 63px;
+    top: 14px;
+    height: 14px;
+}
+.links-list:hover{
+    background-color: #008CFF10;
+}
+.links-list:hover i{
+    color: #008CFF;
+}
+.links-list:hover{
+    color: #008CFF;
+}
+
+.heading{
+    position: absolute;
+    text-align: left;
+    left: 31px;
+    top: 21px;
+    width: 815px;
+    height: 51px;
+}
+.heading h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading p{
+    font-size: 18px;
+
+}
+.profile-link-list{
+    position: absolute;
+    width: 243px;
+    height: 176px;
+}
+.profile-link-list li {
+    position: relative;
+    list-style: none;
+    width: 845px;
+    height: 55px;
+
+} 
+.profile-data-container {
+    position: relative;
+    padding-left: 30px;
+    width: 877px;
+    height: 502px;
+    left: 410px;
+
+}
+.profile-data{
+    position: absolute;
+    left: 40px;
+    top: 114px;
+    width: 875px;
+    height: 395px;
+}
+.profile-data .profile-list{
+    position: relative;
+    width: 845px;
+    height: 55px;
+}
+.profile-list{
+    left: -20px;
+}
+
+.profile-list .title{
+    position: absolute;
+    top: 22px;
+}
+.profile-list p{
+    font-size: 11px;
+}
+.profile-list .value{
+        position: absolute;
+        left: 180px;
+        top: 18.5px;
+        padding: 0 1.75px 1px 0;
+        height: 17px;
+        width: 94.77;
+}
+.value p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.profile-list .add{
+    font-size: 14px;
+    color: #008CFF;
+}
+.main-comp{
+    display: flex;
+    flex-direction: column;
+}
